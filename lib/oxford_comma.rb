@@ -1,7 +1,7 @@
 def oxford_comma(array)
   if array.length == l
     return array[0]
-  end
+  
 else
   string = ""
   array.each_with_index {|word, index|
