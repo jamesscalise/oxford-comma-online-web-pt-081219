@@ -7,6 +7,7 @@ else
   array.each_with_index {|word, index|
     index + 1 == array.length ? string << "and #{word}" : string << "#{word}, "
   }
-end
+
   return string
+end
 end
