@@ -1,3 +1,4 @@
 def oxford_comma(array)
-    return array.join(", ")
+  string = ""
+  array.each_with {|word|
 end
