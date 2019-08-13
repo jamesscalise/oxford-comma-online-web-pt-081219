@@ -1,6 +1,6 @@
 def oxford_comma(array)
   string = ""
   array.each_with {|word, index|
-    string << "#{word}, "
+    if index == array ? string << "and #{word}." : string << "#{word}, "
   }
 end
